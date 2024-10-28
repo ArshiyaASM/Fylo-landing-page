@@ -1,0 +1,205 @@
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+@media screen and (min-width : 576px){
+    
+    main .section2 .bottom > p {
+        font-size: 22px;
+    }
+    
+    footer > .bottom .top img {
+        width: 40%;
+    }
+}
+
+
+
+@media screen and (min-width : 768px) {
+    header {
+        margin-bottom: 150px;
+    }
+
+    header nav ul{
+        justify-content: flex-end;
+    }
+
+    header nav li {
+        margin-left: 25px;
+    }
+    
+    main .section1 {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 20px 50px;
+    }
+
+    main .section1 .bottom {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main .section1 .bottom form {
+        width: 100%;
+        display: flex;
+        margin: initial;
+        height: 45px;
+    }
+
+
+    main .section1 .bottom form input {
+        width: auto;
+        align-self: stretch;
+        display: block;
+        flex-grow: 9;
+        padding: 15px;
+        border: 1px solid rgb(95, 90, 90);
+        border-radius: 3px;
+        margin-right: 15px;
+        height: 100%;
+    }
+    
+    main .section1 .bottom form button {
+        display: block;
+        width: initial;
+        flex-grow: 3;
+        height: 100%;
+        border-radius: 3px;
+    }
+
+
+
+
+
+
+    main .section2 {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 20px 50px;
+    }
+
+    main .section2 .bottom h2 {
+        font-size: 400;
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+
+    main .section2 .bottom > p {
+        color: hsl(243, 87%, 12%);
+        text-align: left;
+        font-size: 18px;
+        margin-bottom: 8px;
+        line-height: 30px;
+    }
+
+    
+
+    main .section2 .bottom {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    main .section2 .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .section2 .bottom .box {
+        margin: 0px;
+    }
+
+
+    main .section2 .top {
+        padding-top: initial;
+    }
+
+    main .section2 .top img{
+        width: 90%;
+    }
+
+
+    main .section2 {
+        background-image: url(../images/bg-curve-desktop.svg);
+    }
+
+    main .section2 .bottom a {
+        margin: 10px 0px 40px 0px;
+    }
+
+    footer > .top .container .content {
+        background-color: hsl(238, 22%, 44%);
+        color: #fff;
+        text-align: left;
+        padding: 50px 50px;
+        display: flex;
+    }
+
+    footer > .top .container .content h3 {
+        font-size: 25px;
+    }
+
+    footer > .top .container .content p {
+        line-height: 25px;
+    }
+
+
+    footer > .top .container .content .textC {
+        padding-right: 200px;
+    }
+
+    footer > .top .container .content > .form {
+        width: 100%;
+        height: 100%;
+        margin: initial;
+    }
+
+    footer > .top .container .content form input {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        outline: none;
+        margin-bottom: 10px;
+        border: none;
+        font-size: 12px;
+    }
+
+    footer > .top .container .content form button {
+        display: block;
+        max-width: 50%;
+        min-width: 150px;
+        
+    }
+    footer > .bottom .top img {
+        width: 200px;
+    }
+
+    footer > .bottom .bottom{
+        color: #fff;
+        padding: 0px 50px;
+        display: flex;
+    }
+
+    footer > .bottom .bottom > div {
+        flex-grow: 1;
+        margin-bottom: 50px;
+    }
+
+    footer > .bottom .bottom .section1 {
+        padding: 0px 0px;
+        display: flex; 
+        justify-content: space-around;
+    }
+    
+    footer > .bottom .bottom .section2 .frame {
+        margin: 0px 10px;
+    }
+    
+}
