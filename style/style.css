@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Barlow';
+    font-family: 'Barlow' , sans-serif;
     min-width: 375px;
 }
 
